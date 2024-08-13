@@ -1,0 +1,64 @@
+/*ESTILO PARA EL CUERPO DE LA ´PAGINA */
+body{
+    background-color: bisque;
+    color:rgb(39, 39, 27);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+/*ESTILO PARA EL CONTENEDOR DEL FORMULARIO*/
+.form-container{
+    background-color: rgb(65, 65, 45);
+    padding:2px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rosybrown (0,0,0,0.5)
+}
+/*ESTILO PARA EL ENCABEZADO DEL CONTENEDOR*/
+.form-container h2{
+    text-align: center;
+    margin-bottom:20px;
+}
+/*ESTILO PARA LAS ETIQUETAS UTILIZANDAS EN EL CONTENEDOR*/
+.form-container label{
+    display: block;
+    margin-bottom:10px;
+}
+
+/*ESTILOS PARA LOS INPUT UTILIZADOS EN EL FORMULARIO*/
+.form-container input[type="text"],
+.form-container input[type="number"] {
+    width: calc(100%-20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border : 1px solid #555;
+    border-radius: 4 px;
+    background-color: #222;
+    color: write;
+}
+.form-container input[type="submit"]{
+    background-color: #4CAF50;
+   color: beige;
+    padding: 10px;
+
+    border:none;
+    border-radius: 4 px;
+    cursor :pointer;
+    width: 1000%;
+}
+/*ESTILO PARA CUANDO SE HA DADO CLIC EN EL BOTON*/
+.form-container input[type="submit"]:hover{
+    background-color:#45a049;
+}
+
+
+
+
+
+
+
+
+
+

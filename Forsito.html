@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Imprimiendo el contenido de un arreglo</h1>
+
+<script>
+    //declarando variables
+    let conteos, promedios, arreglo;
+    //capturando datos
+    alert("Menu de opciones");
+opcion=parseInt(prompt("Ingrese \n 1-conteos \n 2- promedios \n 3-arreglos"));
+while(opcion<1 || opcion>3)
+    {
+opcion=parseInt(prompt("Ingrese correctamente \n 1- conteos \n 2-promedios \n 3-arreglos"));
+}
+
+
+//procesos
+switch (opcion) 
+{
+case 1: 
+{
+    conteos=50;
+    break;
+}
+case 1: 
+{
+    promedios=50;
+    break;
+}
+case 1: 
+{
+    arreglos=50;
+    break;
+}
+
+//impresion
+if (opcion==1 && opcion==1)
+{
+document.write("Opcion quiere imprimir el arreglo<br>");
+
+}
+
+
+}
+
+
+    var edades=[10,18,60,27];
+     var suma=0, promedio=0;
+     var mayor=0, menor=0;
+    document.write("Utilizando conteos");
+    for (let index = 0; index < edades.length; index++) {
+     if(edades[index>=18])
+     {
+        mayor++;
+     }
+     else {
+        menor++;
+     }  
+        
+    } //fin for
+    document.write("La cantidad de edades menores de 18 son", menor, "<br>");
+    document.write("La cantidad de edades mayores de 18 son", mayor, "<br>");
+
+ document.write("Utilizando promedio");
+    for (let index = 0; index < edades.length; index++) {
+    suma=suma+edades[index];
+   }
+   promedio=suma/edades.length;
+   document.write("La edad promedio es", promedio.toFixed(2));
+
+
+ 
+    document.write("Imprimiendo el contenido de un arreglo");
+    for (let index = 0; index < edades.length; index++) {
+    document.writeln(edades[index],"-"); 
+    }
+//fin 
+</script>
+</body>
+</html>

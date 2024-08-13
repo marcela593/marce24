@@ -1,0 +1,17 @@
+body {
+    background-color: #e2aa42;
+    color: bisque (122, 49, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h2{
+    color: bisque (189, 113, 185);
+    font-size: 45px;
+}
+h1{
+    color: bisque (189, 113, 185);
+    font-size: 30px;
+}
